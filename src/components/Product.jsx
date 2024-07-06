@@ -24,7 +24,7 @@ const Product = ({post}) => {
         <p className="text-gray-700 font-semibold text-lg text-left truncate w-40 mt-1">{post.title}</p>
       </div>
       <div>
-        <p className="w-40 text-gray-400 font-normal text-[10px] text-left">{post.description.split(" ").slice(0,10).join(" ") + "..."}</p>
+        {/* <p className="w-40 text-gray-400 font-normal text-[10px] text-left">{post.description.split(" ").slice(0,10).join(" ") + "..."}</p> */}
       </div>
       <div className="h-[180px]">
         <img src={post.image} className="h-full w-full " />

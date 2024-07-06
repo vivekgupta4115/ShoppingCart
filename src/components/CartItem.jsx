@@ -13,9 +13,9 @@ const CartItem = ({item, itemIndex}) => {
   }
 
   return (
-    <div>
+    
 
-      <div className="w-[1200px] gap-8 mx-auto flex pl-[330px]">
+      <div className="flex justify-between items-center gap-8 max-w-6xl mx-auto">
 
         <div className="mb-10">
           <img src={item.image} width={200} height={200}/>
@@ -38,7 +38,7 @@ const CartItem = ({item, itemIndex}) => {
 
       </div>
 
-    </div>
+    
   );
 };
 
